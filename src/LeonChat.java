@@ -1,6 +1,6 @@
   // Part 1 complete
 // Leon Ndou
-// Student Number: your student number here
+// Student Number: st10510011
 // PROG5121 Part 1
 // This is the main class that runs LeonChat
 
