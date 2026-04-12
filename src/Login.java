@@ -87,6 +87,7 @@ public class Login {
 
     // this puts everything together for registration
     // checks all three things and gives back a message
+    // registration feature
     public String registerUser() {
         
         if (checkUserName() == false) {
@@ -121,4 +122,4 @@ public class Login {
             return "Username or password incorrect, please try again.";
         }
     }
-}
+}  
