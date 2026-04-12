@@ -2,6 +2,7 @@
 // Student Number: (add your student number)
 // PROG5121 Part 1
 // Unit tests for Login class
+// unit tests added
 
 import org.junit.Test;
 import static org.junit.Assert.*;
