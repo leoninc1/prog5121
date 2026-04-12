@@ -2,6 +2,7 @@
 // Student Number: st10510011
 // PROG5121 Part 1
 // This class handles registration and login for LeonChat
+// Login class created
 public class Login {
 
     // these are the details the user will enter
