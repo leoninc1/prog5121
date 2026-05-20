@@ -122,3 +122,4 @@ public class Message {
         }
     }
 }
+//Add printMessages, returnTotalMessagess and storeMessage methods
