@@ -62,13 +62,16 @@ public class LeonChat {
             
             // check login and show result
             String loginResult = myUser.returnLoginStatus(loginName, loginPass);
-            System.out.println("");
-            System.out.println(loginResult);
-            System.out.println("");
-            
-        } else {
-            System.out.println("Registration did not work. Please try again.");
-        }
+System.out.println("");
+System.out.println(loginResult);
+System.out.println("");
+
+// call Part 2
+QuickChat.main(args);
+
+} else {
+    System.out.println("Registration did not work. Please try again.");
+} 
         
         input.close();
     }
