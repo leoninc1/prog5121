@@ -42,6 +42,7 @@ public class Message {
 
     // check if recipient number is correct
     public String checkRecipientCell() {
+        //Add checkMessageID and checkRecipientCell methods
         if (recipient.length() <= 10 && recipient.startsWith("+")) {
             return "Cell phone number successfully captured.";
         } else {
