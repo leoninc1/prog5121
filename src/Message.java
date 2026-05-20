@@ -67,6 +67,7 @@ public class Message {
 
     // send, disregard or store the message
     public String SentMessage(int choice) {
+        //Add createMessageHash and SentMessage methods
         if (choice == 1) {
             sentMessages.add(this);
             totalMessagesSent++;
