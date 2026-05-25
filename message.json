@@ -1,0 +1,21 @@
+{
+  "messages": [
+    {
+      "messageID": "auto generated",
+      "messageHash": "auto generated",
+      "recipient": "+27718693002",
+      "message": "Hi Mike, can you join us for dinner tonight?",
+      "numMessagesSent": 1,
+      "status": "sent"
+    },
+    {
+      "messageID": "auto generated",
+      "messageHash": "auto generated",
+      "recipient": "+27857597588",
+      "message": "Hi Keegan, did you receive the payment?",
+      "numMessagesSent": 2,
+      "status": "disregarded"
+    }
+  ],
+  "totalMessagesSent": 1
+}
