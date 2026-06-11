@@ -256,3 +256,4 @@ public class MessageManager {
         }
     }
 }
+//Add searchByRecipient, deleteByHash and displayReport methods
