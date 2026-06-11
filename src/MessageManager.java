@@ -71,6 +71,7 @@ public class MessageManager {
 
     // send, disregard or store the message
     public String SentMessage(int choice) {
+        //Add createMessageHash and SentMessage methods
         if (choice == 1) {
             this.status = "sent";
             sentMessages.add(this);
