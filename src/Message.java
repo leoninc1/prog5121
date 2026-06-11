@@ -43,7 +43,7 @@ public class Message {
     // check if recipient number is correct
     public String checkRecipientCell() {
         //Add checkMessageID and checkRecipientCell methods
-        if (recipient.length() <= 10 && recipient.startsWith("+")) {
+        if (recipient.startsWith("+")) {
             return "Cell phone number successfully captured.";
         } else {
             return "Cell phone number is incorrectly formatted or does not contain an international code. Please correct the number and try again.";
@@ -121,5 +121,20 @@ public class Message {
             System.out.println("Error: " + e.getMessage());
         }
     }
+    // read messages from json file
+public static void readFromJson() {
+    try {
+        java.io.BufferedReader reader = new java.io.BufferedReader(
+            new java.io.FileReader("messages.json"));
+        String line;
+        System.out.println("--- Stored Messages from JSON ---");
+        while ((line = reader.readLine()) != null) {
+            System.out.println(line);
+        }
+        reader.close();
+    } catch (java.io.IOException e) {
+        System.out.println("No stored messages found.");
+    }
+}
 }
 //Add printMessages, returnTotalMessagess and storeMessage methods
