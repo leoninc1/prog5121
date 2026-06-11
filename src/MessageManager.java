@@ -171,6 +171,7 @@ public class MessageManager {
 
     // search for a message by message ID
     public static void searchByMessageID(String id) {
+        //Add displayStoredMessages, displayLongestMessage and searchByMessageID methods
         ArrayList<MessageManager> allMessages = new ArrayList<>();
         allMessages.addAll(sentMessages);
         allMessages.addAll(storedMessages);
